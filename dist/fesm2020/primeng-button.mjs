@@ -28,7 +28,7 @@ class ButtonDirective {
         if (this.label)
             labelElement.appendChild(document.createTextNode(this.label));
         else
-            labelElement.innerHTML = '&nbsp;';
+            labelElement.textContent = String.fromCharCode(160); // &nbsp
         this.el.nativeElement.appendChild(labelElement);
         this.initialized = true;
     }

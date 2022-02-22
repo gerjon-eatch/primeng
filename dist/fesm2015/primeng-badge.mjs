@@ -54,8 +54,7 @@ class BadgeDirective {
                 else if (!this._value && !DomHandler.hasClass(badge, 'p-badge-dot')) {
                     DomHandler.addClass(badge, 'p-badge-dot');
                 }
-                badge.innerHTML = '';
-                badge.appendChild(document.createTextNode(this._value));
+                badge.textContent = this._value;
             }
         }
     }

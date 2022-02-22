@@ -16,7 +16,7 @@ class Tooltip {
             tooltipEvent: 'hover',
             appendTo: 'body',
             tooltipZIndex: 'auto',
-            escape: false,
+            escape: true,
             positionTop: 0,
             positionLeft: 0
         };
@@ -208,10 +208,10 @@ class Tooltip {
     }
     updateText() {
         if (this.getOption('escape')) {
-            this.tooltipText.innerHTML = '';
-            this.tooltipText.appendChild(document.createTextNode(this.getOption('tooltipLabel')));
+            this.tooltipText.textContent = this.getOption('tooltipLabel');
         }
         else {
+            // TODO: will break with Content-Security-Policy that forces trusted-types on scripts:
             this.tooltipText.innerHTML = this.getOption('tooltipLabel');
         }
     }

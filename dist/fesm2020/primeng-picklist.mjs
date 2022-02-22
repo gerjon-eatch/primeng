@@ -503,7 +503,7 @@ class PickList {
                 }
             }
             `;
-            this.styleElement.innerHTML = innerHTML;
+            this.styleElement.textContent = innerHTML;
         }
     }
     destroyStyle() {

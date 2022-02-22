@@ -227,7 +227,7 @@ class Carousel {
                 `;
             }
         }
-        this.carouselStyle.innerHTML = innerHTML;
+        this.carouselStyle.textContent = innerHTML;
     }
     calculatePosition() {
         if (this.responsiveOptions) {

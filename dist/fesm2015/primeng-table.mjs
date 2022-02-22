@@ -1407,7 +1407,7 @@ class Table {
                 }
             `;
         });
-        this.styleElement.innerHTML = innerHTML;
+        this.styleElement.textContent = innerHTML;
     }
     onColumnDragStart(event, columnElement) {
         this.reorderIconWidth = DomHandler.getHiddenElementOuterWidth(this.reorderIndicatorUpViewChild.nativeElement);
@@ -1688,7 +1688,7 @@ class Table {
                         }
                     `;
                 });
-                this.styleElement.innerHTML = innerHTML;
+                this.styleElement.textContent = innerHTML;
             }
         }
     }
@@ -1775,7 +1775,7 @@ class Table {
     }
 }
 `;
-            this.responsiveStyleElement.innerHTML = innerHTML;
+            this.responsiveStyleElement.textContent = innerHTML;
         }
     }
     destroyResponsiveStyle() {

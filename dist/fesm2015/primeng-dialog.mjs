@@ -227,7 +227,7 @@ class Dialog {
                     }
                 `;
             }
-            this.styleElement.innerHTML = innerHTML;
+            this.styleElement.textContent = innerHTML;
         }
     }
     initDrag(event) {

@@ -310,7 +310,7 @@ class OrderList {
                     }
                 }
             `;
-            this.styleElement.innerHTML = innerHTML;
+            this.styleElement.textContent = innerHTML;
         }
     }
     destroyStyle() {
