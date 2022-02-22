@@ -468,7 +468,7 @@ export class OrderList implements AfterViewChecked,AfterContentInit {
                 }
             `;
 
-            this.styleElement.innerHTML = innerHTML;
+            this.styleElement.textContent = innerHTML;
         }
     }
 

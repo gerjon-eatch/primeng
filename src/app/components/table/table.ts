@@ -2009,7 +2009,7 @@ export class Table implements OnInit, AfterViewInit, AfterContentInit, Blockable
             `
         });
 
-        this.styleElement.innerHTML = innerHTML;
+        this.styleElement.textContent = innerHTML;
     }
 
     onColumnDragStart(event, columnElement) {
@@ -2353,7 +2353,7 @@ export class Table implements OnInit, AfterViewInit, AfterContentInit, Blockable
                     `
                 });
 
-                this.styleElement.innerHTML = innerHTML;
+                this.styleElement.textContent = innerHTML;
             }
         }
     }
@@ -2450,7 +2450,7 @@ export class Table implements OnInit, AfterViewInit, AfterContentInit, Blockable
 }
 `;
 
-            this.responsiveStyleElement.innerHTML = innerHTML;
+            this.responsiveStyleElement.textContent = innerHTML;
         }
     }
 

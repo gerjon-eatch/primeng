@@ -807,7 +807,7 @@ export class PickList implements AfterViewChecked,AfterContentInit {
             }
             `;
 
-            this.styleElement.innerHTML = innerHTML;
+            this.styleElement.textContent = innerHTML;
         }
     }
 

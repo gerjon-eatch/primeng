@@ -2918,7 +2918,7 @@ export class Calendar implements OnInit,OnDestroy,ControlValueAccessor {
                 }
             }
 
-            this.responsiveStyleElement.innerHTML = innerHTML;
+            this.responsiveStyleElement.textContent = innerHTML;
         }
     }
 
