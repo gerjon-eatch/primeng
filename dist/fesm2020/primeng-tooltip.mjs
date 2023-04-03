@@ -265,7 +265,7 @@ class Tooltip {
             this.tooltipText.textValue = this.getOption('tooltipLabel');
         }
         else {
-            //this.tooltipText.innerHTML = this.getOption('tooltipLabel');
+            this.tooltipText.innerHTML = this.getOption('tooltipLabel');
         }
     }
     align() {

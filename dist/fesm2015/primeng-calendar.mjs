@@ -2210,7 +2210,7 @@ class Calendar {
                     `;
                 }
             }
-            //this.responsiveStyleElement.innerHTML = innerHTML;
+            this.responsiveStyleElement.textContent = innerHTML;
         }
     }
     destroyResponsiveStyleElement() {

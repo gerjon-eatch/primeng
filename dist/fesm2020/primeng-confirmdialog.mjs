@@ -233,7 +233,7 @@ class ConfirmDialog {
                     }
                 `;
             }
-            //this.styleElement.innerHTML = innerHTML;
+            this.styleElement.textContent = innerHTML;
         }
     }
     close(event) {

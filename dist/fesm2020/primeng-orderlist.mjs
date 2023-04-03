@@ -334,7 +334,7 @@ class OrderList {
                         }
                     }
                 `;
-                //this.renderer.setProperty(this.styleElement, 'innerHTML', innerHTML);
+                this.styleElement.textContent = innerHTML;
             }
         }
     }

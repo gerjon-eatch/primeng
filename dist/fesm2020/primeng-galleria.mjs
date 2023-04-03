@@ -845,7 +845,7 @@ class GalleriaThumbnails {
                 `;
             }
         }
-        //this.thumbnailsStyle.innerHTML = innerHTML;
+        this.thumbnailsStyle.textContent = innerHTML;
     }
     calculatePosition() {
         if (this.itemsContainer && this.sortedResponsiveOptions) {
