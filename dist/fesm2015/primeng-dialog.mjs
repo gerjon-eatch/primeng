@@ -799,3 +799,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.4", ngImpor
 
 export { Dialog, DialogModule };
 //# sourceMappingURL=primeng-dialog.mjs.map
+//# sourceMappingURL=primeng-dialog.mjs.map

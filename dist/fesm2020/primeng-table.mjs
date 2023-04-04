@@ -5077,3 +5077,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.4", ngImpor
 
 export { CancelEditableRow, CellEditor, ColumnFilter, ColumnFilterFormElement, ContextMenuRow, EditableColumn, EditableRow, FrozenColumn, InitEditableRow, ReorderableColumn, ReorderableRow, ReorderableRowHandle, ResizableColumn, RowGroupHeader, RowToggler, SaveEditableRow, SelectableRow, SelectableRowDblClick, SortIcon, SortableColumn, Table, TableBody, TableCheckbox, TableHeaderCheckbox, TableModule, TableRadioButton, TableService };
 //# sourceMappingURL=primeng-table.mjs.map
+//# sourceMappingURL=primeng-table.mjs.map

@@ -420,3 +420,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.4", ngImpor
 
 export { Toast, ToastItem, ToastModule };
 //# sourceMappingURL=primeng-toast.mjs.map
+//# sourceMappingURL=primeng-toast.mjs.map

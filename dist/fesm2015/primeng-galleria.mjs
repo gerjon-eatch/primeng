@@ -1153,3 +1153,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.4", ngImpor
 
 export { Galleria, GalleriaContent, GalleriaItem, GalleriaItemSlot, GalleriaModule, GalleriaThumbnails };
 //# sourceMappingURL=primeng-galleria.mjs.map
+//# sourceMappingURL=primeng-galleria.mjs.map

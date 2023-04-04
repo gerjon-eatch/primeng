@@ -1103,3 +1103,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.4", ngImpor
 
 export { PickList, PickListModule };
 //# sourceMappingURL=primeng-picklist.mjs.map
+//# sourceMappingURL=primeng-picklist.mjs.map

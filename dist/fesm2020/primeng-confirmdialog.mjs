@@ -575,3 +575,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.4", ngImpor
 
 export { ConfirmDialog, ConfirmDialogModule };
 //# sourceMappingURL=primeng-confirmdialog.mjs.map
+//# sourceMappingURL=primeng-confirmdialog.mjs.map

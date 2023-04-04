@@ -3055,3 +3055,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.4", ngImpor
 
 export { CALENDAR_VALUE_ACCESSOR, Calendar, CalendarModule };
 //# sourceMappingURL=primeng-calendar.mjs.map
+//# sourceMappingURL=primeng-calendar.mjs.map

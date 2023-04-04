@@ -667,3 +667,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.4", ngImpor
 
 export { Carousel, CarouselModule };
 //# sourceMappingURL=primeng-carousel.mjs.map
+//# sourceMappingURL=primeng-carousel.mjs.map

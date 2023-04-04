@@ -576,3 +576,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.4", ngImpor
 
 export { OrderList, OrderListModule };
 //# sourceMappingURL=primeng-orderlist.mjs.map
+//# sourceMappingURL=primeng-orderlist.mjs.map
